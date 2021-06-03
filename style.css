@@ -26,6 +26,7 @@ header img {
     float: left;
 
 
+
 }
 header nav{
     float: left;
@@ -36,7 +37,7 @@ header nav{
 }
 nav li {
     float: right;
-    padding-right: 30px;
+    padding-right: 20px;
     text-decoration: overline;
 }
 nav ul::after{
@@ -62,14 +63,26 @@ section{
 }
 #container{
   display: flex;
-  margin-top:200px;
   flex-wrap: wrap;
   flex-direction: row;
-
-  justify-content: space-around;
+  align-items: baseline;
   flex-start;
   flex:300px;
-  justify-content: space-between;
+row-gap: 20px;
+justify-content: space-between;
+
+}
+#container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  flex-start;
+  flex:300px;
+row-gap: 20px;
+justify-content: space-between;
+position: static;
+top: 10px;
 }
 footer {
     left: 0;
@@ -79,17 +92,18 @@ footer {
     border-style: dashed;
 }
 article{
-    max-width: 330px;
-    max-height: 230px;
+    max-width: 250px;
+    max-height: 165px;
     border-radius: 10px;
     background-color: white;
     font-size: 12px;
 border-style: dashed;
-float:left;
+margin:20px;
+
 }
 article img {
-    width: 300px ;
-    height:130px ;
+    width: 250px ;
+    height:80px ;
     border-top-right-radius: auto;
     border-top-left-radius: auto;
 }
@@ -98,6 +112,7 @@ float:right;
 width: 30%;
 
 }
+h1{margin:20px;}
 
 .P1{
   line-height:1px;
